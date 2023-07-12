@@ -36,9 +36,9 @@ class Player:
 
   def show(self):
     if self.isDealer:
-      print("Dealer's Cards')
+      print("Dealer's Cards")
     else:
-      print("Player's Cards')
+      print("Player's Cards")
 
     for i in self.cards:
       i.show()
